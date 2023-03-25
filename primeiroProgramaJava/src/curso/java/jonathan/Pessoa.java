@@ -14,6 +14,8 @@ public class Pessoa {
 	
 	private Date dataCadastro;
 	
+	private int Matricula;
+	
 	
 	
 	
