@@ -1,4 +1,4 @@
-package curso.java.modulo08;
+package cursojava.modulo08;
 
 public class EstrutruradeRepeticaoFor {
 

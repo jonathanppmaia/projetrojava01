@@ -1,4 +1,4 @@
-package curso.java.jonathan;
+package cursojava.jonathan;
 
 public class ConcatenacaoDeVariaveis {
 	public static void main(String[] args) {
