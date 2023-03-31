@@ -1,4 +1,4 @@
-package modulo08;
+package curso.java.modulo08;
 
 public class EstrtuturaIfElse {
 	public static void main(String[] args) {

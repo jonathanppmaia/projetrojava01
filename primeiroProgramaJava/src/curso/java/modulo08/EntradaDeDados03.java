@@ -1,8 +1,8 @@
-package modulo08;
+package curso.java.modulo08;
 
 import javax.swing.JOptionPane;
 
-public class EntradaDeDados02 {
+public class EntradaDeDados03 {
 
 	public static void main(String[] args) {
 
@@ -16,20 +16,20 @@ public class EntradaDeDados02 {
 		
 		double resto = carroNumero % pessoaNumero;
 		
-		int resposta = JOptionPane.showConfirmDialog(null,"Deseja ver o resultado da divisão?");
+		int resposta = JOptionPane.showConfirmDialog(null,"Deseja ver o resultado da divis�o?");
 		
 		if (resposta == 0) {
 			JOptionPane.showMessageDialog(null, "Divisão para pessoas deu " +divisao);
 		}else {
-			System.out.println("N�o quero ver o resultado");
+			System.out.println("N�o quero ver o resultado");
 		}
 		
-		resposta = JOptionPane.showConfirmDialog(null, "Deseja ver o RESTO da Divisão?");
+		resposta = JOptionPane.showConfirmDialog(null, "Deseja ver o RESTO da Divis�o?");
 		
 		if (resposta == 0) {
-			JOptionPane.showMessageDialog(null,  " O resto da divisão é " + resto);
+			JOptionPane.showMessageDialog(null,  " O resto da divis�o � " + resto);
 		}else {
-			System.out.println("N�o quero ver o resultado");
+			System.out.println("N�o quero ver o resultado");
 		}
 	
 	}

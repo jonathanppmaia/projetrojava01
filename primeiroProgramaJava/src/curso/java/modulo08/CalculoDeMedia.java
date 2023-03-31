@@ -1,4 +1,4 @@
-package modulo08;
+package curso.java.modulo08;
 
 import javax.swing.JOptionPane;
 
@@ -11,7 +11,7 @@ public class CalculoDeMedia {
 		String nota3 = JOptionPane.showInputDialog("Informe a nota 3");
 		String nota4 = JOptionPane.showInputDialog("Informe a nota 4");
 
-		/* VARIÁVEL CONVERTIDA PARA DOUBLE */
+		/* VARIï¿½VEL CONVERTIDA PARA DOUBLE */
 		double dNota1 = Double.parseDouble(nota1);
 		double dNota2 = Double.parseDouble(nota2);
 		double dNota3 = Double.parseDouble(nota3);
@@ -19,18 +19,18 @@ public class CalculoDeMedia {
 
 		double media = (dNota1 + dNota2 + dNota3 + dNota4) / 4;
 
-		/* Média para aprovação é 70 */
+		/* Mï¿½dia para aprovaï¿½ï¿½o ï¿½ 70 */
 
 		if (media >= 50) {
 			if (media >= 70) {
-				JOptionPane.showMessageDialog(null, "Aluno está aprovado com média de: " + media);
+				JOptionPane.showMessageDialog(null, "Aluno estï¿½ aprovado com mï¿½dia de: " + media);
 
 			} else {
-				JOptionPane.showMessageDialog(null, "Aluno em recuperação com média: " + media);
+				JOptionPane.showMessageDialog(null, "Aluno em recuperaï¿½ï¿½o com mï¿½dia: " + media);
 			}
 		} else {
 
-			JOptionPane.showMessageDialog(null, "Aluno reprovado com média: " + media);
+			JOptionPane.showMessageDialog(null, "Aluno reprovado com mï¿½dia: " + media);
 
 		}
 
